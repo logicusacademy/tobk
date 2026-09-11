@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tryout &amp; Bank Soal Matematika SMP — Logicus Academy</title>
-    <meta name="description" content="Latihan tryout interaktif Matematika SMP mengikuti kerangka asesmen TKA — 10 topik, skor langsung, dan pembahasan tiap soal. Gratis dan bisa diulang kapan saja.">
+    <title>Tryout: Persamaan Linear Satu Variabel — Logicus Academy</title>
+    <meta name="description" content="Latihan tryout interaktif tentang persamaan linear satu variabel (PLSV) untuk SMP, mengikuti kerangka asesmen TKA. Skor langsung dan pembahasan tiap soal.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
 
             <nav class="main-nav" id="main-nav">
                 <ul>
-                    <li><a href="#topik">Daftar Tryout</a></li>
+                    <li><a href="index.html">Daftar Tryout</a></li>
                     <li><a href="https://tka.logicus.online">Materi TKA</a></li>
                     <li><a href="https://learn.logicus.online">Belajar</a></li>
                     <li><a href="https://blog.logicus.online">Blog</a></li>
@@ -57,139 +57,21 @@
     </header>
 
     <main id="main">
-        <!-- ============ HERO ============ -->
-        <section class="tobk-hero">
-            <div class="container tobk-hero-inner">
-                <p class="eyebrow" data-reveal>Try Out Berbasis Komputer</p>
-                <h1 data-reveal>Latihan Tryout Matematika SMP</h1>
-                <p class="tobk-hero-lead" data-reveal>10 topik inti Matematika SMP, disusun mengikuti kerangka asesmen TKA — lengkap dengan skor langsung dan pembahasan di setiap soal. Kerjakan sebanyak yang kamu mau, kapan saja.</p>
-
-                <div class="tobk-hero-stats" data-reveal>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">10</span>
-                        <span class="stat-label">Topik Tersedia</span>
-                    </div>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">80</span>
-                        <span class="stat-label">Soal Tersedia</span>
-                    </div>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">L1&ndash;L3</span>
-                        <span class="stat-label">Level Kognitif</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ CATATAN ============ -->
-        <section class="tobk-note-section">
+        <!-- ============ BREADCRUMB ============ -->
+        <div class="breadcrumb-bar">
             <div class="container">
-                <div class="tobk-note" data-reveal>
-                    <i class="fa-solid fa-circle-info"></i>
-                    <p>Soal disusun mengikuti cakupan materi resmi Peraturan Kepala BSKAP No. 047/H/AN/2025 untuk jenjang SMP/MTs. Lihat ringkasan lengkap kerangka materinya di <a href="https://tka.logicus.online">tka.logicus.online</a>.</p>
-                </div>
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Tryout</a>
+                    <span aria-hidden="true">/</span>
+                    <span aria-current="page">Persamaan Linear Satu Variabel</span>
+                </nav>
             </div>
-        </section>
+        </div>
 
-        <!-- ============ DAFTAR TOPIK ============ -->
-        <section class="topic-section" id="topik">
-            <div class="container">
-                <p class="section-eyebrow" data-reveal>Pilih Topik</p>
-                <h2 data-reveal>10 Latihan Tryout Matematika SMP</h2>
-
-                <div class="topic-grid">
-                    <a href="01-perbandingan-sifat-bilangan.html" class="topic-card" data-reveal>
-                        <span class="topic-number">1</span>
-                        <div class="topic-body">
-                            <h3>Perbandingan &amp; Sifat-Sifat Bilangan</h3>
-                            <p>Bilangan bulat, rasional, irasional, dan sifat operasinya</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="02-operasi-aritmetika.html" class="topic-card" data-reveal>
-                        <span class="topic-number">2</span>
-                        <div class="topic-body">
-                            <h3>Operasi Aritmetika pada Bilangan</h3>
-                            <p>Operasi campuran, urutan operasi hitung, pecahan &amp; desimal</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="03-estimasi.html" class="topic-card" data-reveal>
-                        <span class="topic-number">3</span>
-                        <div class="topic-body">
-                            <h3>Estimasi &amp; Perkiraan Hasil</h3>
-                            <p>Pembulatan, taksiran, dan estimasi hasil perhitungan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="04-faktorisasi-prima.html" class="topic-card" data-reveal>
-                        <span class="topic-number">4</span>
-                        <div class="topic-body">
-                            <h3>Faktorisasi Prima Bilangan Asli</h3>
-                            <p>Pohon faktor, FPB, dan KPK</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="05-rasio.html" class="topic-card" data-reveal>
-                        <span class="topic-number">5</span>
-                        <div class="topic-body">
-                            <h3>Rasio, Skala &amp; Laju Perubahan</h3>
-                            <p>Skala peta/denah, proporsi, dan laju perubahan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="06-perbandingan-senilai-berbalik-nilai.html" class="topic-card" data-reveal>
-                        <span class="topic-number">6</span>
-                        <div class="topic-body">
-                            <h3>Perbandingan Senilai &amp; Berbalik Nilai</h3>
-                            <p>Soal cerita perbandingan naik-turun sebanding</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="07-plsv.html" class="topic-card" data-reveal>
-                        <span class="topic-number">7</span>
-                        <div class="topic-body">
-                            <h3>Persamaan Linear Satu Variabel</h3>
-                            <p>Menyelesaikan PLSV dan penerapannya dalam soal cerita</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="08-pertidaksamaan.html" class="topic-card" data-reveal>
-                        <span class="topic-number">8</span>
-                        <div class="topic-body">
-                            <h3>Pertidaksamaan Linear Satu Variabel</h3>
-                            <p>Menentukan himpunan penyelesaian pertidaksamaan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="09-spldv.html" class="topic-card" data-reveal>
-                        <span class="topic-number">9</span>
-                        <div class="topic-body">
-                            <h3>Sistem Persamaan Linear Dua Variabel</h3>
-                            <p>Eliminasi, substitusi, dan soal cerita SPLDV</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="10-bentuk-aljabar.html" class="topic-card" data-reveal>
-                        <span class="topic-number">10</span>
-                        <div class="topic-body">
-                            <h3>Bentuk Aljabar &amp; Sifat Operasinya</h3>
-                            <p>Suku sejenis, sifat komutatif, asosiatif, distributif</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ CTA ============ -->
-        <section class="cta-band" id="konsultasi">
-            <div class="container cta-inner">
-                <div>
-                    <h2>Butuh pendampingan lebih dari sekadar latihan soal?</h2>
-                    <p>Program persiapan TKA Logicus menekankan pemahaman konsep, bukan sekadar hafal pola soal.</p>
-                </div>
-                <a href="https://logicus.online/#konsultasi" class="btn btn-lg cta-band-btn">Konsultasi Gratis <i class="fa-solid fa-arrow-right"></i></a>
+        <!-- ============ QUIZ ============ -->
+        <section class="quiz-page-section">
+            <div class="container quiz-container">
+                <div id="quiz-root"></div>
             </div>
         </section>
     </main>
@@ -235,10 +117,9 @@
             </div>
 
             <div class="footer-col">
-                <h3>Tryout Matematika SMP</h3>
+                <h3>Tryout Lainnya</h3>
                 <ul class="framework-list">
-                    <li><span>10 Topik</span> Bilangan hingga SPLDV</li>
-                    <li><span>Skor Langsung</span> + pembahasan tiap soal</li>
+                    <li><a href="index.html" style="color:#D7E1EA;">Lihat semua 10 topik &rarr;</a></li>
                 </ul>
             </div>
         </div>
@@ -247,6 +128,87 @@
         </div>
     </footer>
 
+    <script>
+        const QUIZ_DATA = {
+            title: "Persamaan Linear Satu Variabel",
+            subtitle: "Menyelesaikan PLSV dan penerapannya dalam soal cerita",
+            levelTag: "TKA Matematika SMP · Topik 7",
+            questions: [
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Manakah dari persamaan berikut yang termasuk Persamaan Linear Satu Variabel (PLSV)?",
+                    options: ["x&sup2; + 3 = 7", "2x + 5 = 11", "x + y = 10", "3x &times; 2x = 24"],
+                    correctIndex: 1,
+                    explanation: "PLSV adalah persamaan dengan satu variabel berpangkat satu. 2x + 5 = 11 memenuhi syarat ini. Pilihan lain melibatkan pangkat dua, dua variabel, atau bukan bentuk linear."
+                },
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Penyelesaian dari persamaan x + 7 = 12 adalah...",
+                    options: ["x = 3", "x = 5", "x = 7", "x = 19"],
+                    correctIndex: 1,
+                    explanation: "x + 7 = 12, maka x = 12 &minus; 7 = 5."
+                },
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Langkah pertama yang tepat untuk menyelesaikan 3x &minus; 4 = 11 adalah...",
+                    options: [
+                        "Membagi kedua ruas dengan 3",
+                        "Menambahkan 4 ke kedua ruas",
+                        "Mengurangkan 3 dari kedua ruas",
+                        "Mengalikan kedua ruas dengan 4"
+                    ],
+                    correctIndex: 1,
+                    explanation: "Untuk mengisolasi suku dengan variabel, tambahkan 4 ke kedua ruas terlebih dahulu: 3x &minus; 4 + 4 = 11 + 4, sehingga 3x = 15. Baru setelah itu dibagi 3."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Penyelesaian dari persamaan 5x &minus; 3 = 2x + 9 adalah...",
+                    options: ["x = 2", "x = 3", "x = 4", "x = 6"],
+                    correctIndex: 2,
+                    explanation: "5x &minus; 3 = 2x + 9 &rarr; 5x &minus; 2x = 9 + 3 &rarr; 3x = 12 &rarr; x = 4."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Umur Andi 5 tahun lebih tua dari umur Budi. Jumlah umur mereka 27 tahun. Umur Budi adalah...",
+                    options: ["9 tahun", "11 tahun", "13 tahun", "16 tahun"],
+                    correctIndex: 1,
+                    explanation: "Misalkan umur Budi = x, maka umur Andi = x + 5. Persamaan: x + (x+5) = 27 &rarr; 2x + 5 = 27 &rarr; 2x = 22 &rarr; x = 11 tahun."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Penyelesaian dari persamaan (2x + 6)/4 = 5 adalah...",
+                    options: ["x = 5", "x = 6", "x = 7", "x = 8"],
+                    correctIndex: 2,
+                    explanation: "(2x+6)/4 = 5 &rarr; 2x + 6 = 20 &rarr; 2x = 14 &rarr; x = 7."
+                },
+                {
+                    level: "L3 · Penalaran",
+                    question: "Sebuah persamaan linear memiliki penyelesaian x = 5. Manakah persamaan yang sesuai dengan penyelesaian tersebut?",
+                    options: [
+                        "3x + 4 = 15",
+                        "3x + 4 = 19",
+                        "3x + 4 = 22",
+                        "3x + 4 = 9"
+                    ],
+                    correctIndex: 1,
+                    explanation: "Substitusikan x = 5 ke ruas kiri: 3(5) + 4 = 15 + 4 = 19. Maka persamaan yang sesuai adalah 3x + 4 = 19, karena hanya nilai ruas kanan inilah yang cocok dengan hasil substitusi x = 5."
+                },
+                {
+                    level: "L3 · Penalaran",
+                    question: "Seorang siswa menyelesaikan 2(x + 3) = 16 dengan langkah 2x + 3 = 16 lalu 2x = 13. Di mana letak kesalahannya?",
+                    options: [
+                        "Salah saat menjumlahkan konstanta",
+                        "Lupa mendistribusikan angka 2 ke seluruh isi kurung, seharusnya 2x + 6 = 16",
+                        "Salah membagi kedua ruas",
+                        "Tidak ada kesalahan, langkahnya sudah benar"
+                    ],
+                    correctIndex: 1,
+                    explanation: "Sifat distributif mengharuskan 2 dikalikan ke SEMUA suku dalam kurung: 2(x+3) = 2x + 6, bukan 2x + 3. Kesalahan ini sangat umum terjadi jika siswa lupa mendistribusikan angka ke seluruh isi kurung, bukan hanya ke suku pertama."
+                }
+            ]
+        };
+    </script>
     <script src="script.js"></script>
+    <script src="quiz-engine.js"></script>
 </body>
 </html>

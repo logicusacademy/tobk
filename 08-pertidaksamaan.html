@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tryout &amp; Bank Soal Matematika SMP — Logicus Academy</title>
-    <meta name="description" content="Latihan tryout interaktif Matematika SMP mengikuti kerangka asesmen TKA — 10 topik, skor langsung, dan pembahasan tiap soal. Gratis dan bisa diulang kapan saja.">
+    <title>Tryout: Pertidaksamaan Linear Satu Variabel — Logicus Academy</title>
+    <meta name="description" content="Latihan tryout interaktif tentang pertidaksamaan linear satu variabel untuk SMP, mengikuti kerangka asesmen TKA. Skor langsung dan pembahasan tiap soal.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
 
             <nav class="main-nav" id="main-nav">
                 <ul>
-                    <li><a href="#topik">Daftar Tryout</a></li>
+                    <li><a href="index.html">Daftar Tryout</a></li>
                     <li><a href="https://tka.logicus.online">Materi TKA</a></li>
                     <li><a href="https://learn.logicus.online">Belajar</a></li>
                     <li><a href="https://blog.logicus.online">Blog</a></li>
@@ -57,139 +57,21 @@
     </header>
 
     <main id="main">
-        <!-- ============ HERO ============ -->
-        <section class="tobk-hero">
-            <div class="container tobk-hero-inner">
-                <p class="eyebrow" data-reveal>Try Out Berbasis Komputer</p>
-                <h1 data-reveal>Latihan Tryout Matematika SMP</h1>
-                <p class="tobk-hero-lead" data-reveal>10 topik inti Matematika SMP, disusun mengikuti kerangka asesmen TKA — lengkap dengan skor langsung dan pembahasan di setiap soal. Kerjakan sebanyak yang kamu mau, kapan saja.</p>
-
-                <div class="tobk-hero-stats" data-reveal>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">10</span>
-                        <span class="stat-label">Topik Tersedia</span>
-                    </div>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">80</span>
-                        <span class="stat-label">Soal Tersedia</span>
-                    </div>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">L1&ndash;L3</span>
-                        <span class="stat-label">Level Kognitif</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ CATATAN ============ -->
-        <section class="tobk-note-section">
+        <!-- ============ BREADCRUMB ============ -->
+        <div class="breadcrumb-bar">
             <div class="container">
-                <div class="tobk-note" data-reveal>
-                    <i class="fa-solid fa-circle-info"></i>
-                    <p>Soal disusun mengikuti cakupan materi resmi Peraturan Kepala BSKAP No. 047/H/AN/2025 untuk jenjang SMP/MTs. Lihat ringkasan lengkap kerangka materinya di <a href="https://tka.logicus.online">tka.logicus.online</a>.</p>
-                </div>
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Tryout</a>
+                    <span aria-hidden="true">/</span>
+                    <span aria-current="page">Pertidaksamaan Linear Satu Variabel</span>
+                </nav>
             </div>
-        </section>
+        </div>
 
-        <!-- ============ DAFTAR TOPIK ============ -->
-        <section class="topic-section" id="topik">
-            <div class="container">
-                <p class="section-eyebrow" data-reveal>Pilih Topik</p>
-                <h2 data-reveal>10 Latihan Tryout Matematika SMP</h2>
-
-                <div class="topic-grid">
-                    <a href="01-perbandingan-sifat-bilangan.html" class="topic-card" data-reveal>
-                        <span class="topic-number">1</span>
-                        <div class="topic-body">
-                            <h3>Perbandingan &amp; Sifat-Sifat Bilangan</h3>
-                            <p>Bilangan bulat, rasional, irasional, dan sifat operasinya</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="02-operasi-aritmetika.html" class="topic-card" data-reveal>
-                        <span class="topic-number">2</span>
-                        <div class="topic-body">
-                            <h3>Operasi Aritmetika pada Bilangan</h3>
-                            <p>Operasi campuran, urutan operasi hitung, pecahan &amp; desimal</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="03-estimasi.html" class="topic-card" data-reveal>
-                        <span class="topic-number">3</span>
-                        <div class="topic-body">
-                            <h3>Estimasi &amp; Perkiraan Hasil</h3>
-                            <p>Pembulatan, taksiran, dan estimasi hasil perhitungan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="04-faktorisasi-prima.html" class="topic-card" data-reveal>
-                        <span class="topic-number">4</span>
-                        <div class="topic-body">
-                            <h3>Faktorisasi Prima Bilangan Asli</h3>
-                            <p>Pohon faktor, FPB, dan KPK</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="05-rasio.html" class="topic-card" data-reveal>
-                        <span class="topic-number">5</span>
-                        <div class="topic-body">
-                            <h3>Rasio, Skala &amp; Laju Perubahan</h3>
-                            <p>Skala peta/denah, proporsi, dan laju perubahan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="06-perbandingan-senilai-berbalik-nilai.html" class="topic-card" data-reveal>
-                        <span class="topic-number">6</span>
-                        <div class="topic-body">
-                            <h3>Perbandingan Senilai &amp; Berbalik Nilai</h3>
-                            <p>Soal cerita perbandingan naik-turun sebanding</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="07-plsv.html" class="topic-card" data-reveal>
-                        <span class="topic-number">7</span>
-                        <div class="topic-body">
-                            <h3>Persamaan Linear Satu Variabel</h3>
-                            <p>Menyelesaikan PLSV dan penerapannya dalam soal cerita</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="08-pertidaksamaan.html" class="topic-card" data-reveal>
-                        <span class="topic-number">8</span>
-                        <div class="topic-body">
-                            <h3>Pertidaksamaan Linear Satu Variabel</h3>
-                            <p>Menentukan himpunan penyelesaian pertidaksamaan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="09-spldv.html" class="topic-card" data-reveal>
-                        <span class="topic-number">9</span>
-                        <div class="topic-body">
-                            <h3>Sistem Persamaan Linear Dua Variabel</h3>
-                            <p>Eliminasi, substitusi, dan soal cerita SPLDV</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="10-bentuk-aljabar.html" class="topic-card" data-reveal>
-                        <span class="topic-number">10</span>
-                        <div class="topic-body">
-                            <h3>Bentuk Aljabar &amp; Sifat Operasinya</h3>
-                            <p>Suku sejenis, sifat komutatif, asosiatif, distributif</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ CTA ============ -->
-        <section class="cta-band" id="konsultasi">
-            <div class="container cta-inner">
-                <div>
-                    <h2>Butuh pendampingan lebih dari sekadar latihan soal?</h2>
-                    <p>Program persiapan TKA Logicus menekankan pemahaman konsep, bukan sekadar hafal pola soal.</p>
-                </div>
-                <a href="https://logicus.online/#konsultasi" class="btn btn-lg cta-band-btn">Konsultasi Gratis <i class="fa-solid fa-arrow-right"></i></a>
+        <!-- ============ QUIZ ============ -->
+        <section class="quiz-page-section">
+            <div class="container quiz-container">
+                <div id="quiz-root"></div>
             </div>
         </section>
     </main>
@@ -235,10 +117,9 @@
             </div>
 
             <div class="footer-col">
-                <h3>Tryout Matematika SMP</h3>
+                <h3>Tryout Lainnya</h3>
                 <ul class="framework-list">
-                    <li><span>10 Topik</span> Bilangan hingga SPLDV</li>
-                    <li><span>Skor Langsung</span> + pembahasan tiap soal</li>
+                    <li><a href="index.html" style="color:#D7E1EA;">Lihat semua 10 topik &rarr;</a></li>
                 </ul>
             </div>
         </div>
@@ -247,6 +128,87 @@
         </div>
     </footer>
 
+    <script>
+        const QUIZ_DATA = {
+            title: "Pertidaksamaan Linear Satu Variabel",
+            subtitle: "Menentukan himpunan penyelesaian pertidaksamaan",
+            levelTag: "TKA Matematika SMP · Topik 8",
+            questions: [
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Simbol mana yang menyatakan hubungan 'kurang dari atau sama dengan'?",
+                    options: ["&lt;", "&gt;", "&le;", "&ne;"],
+                    correctIndex: 2,
+                    explanation: "Simbol &le; dibaca 'kurang dari atau sama dengan'. Simbol &lt; berarti 'kurang dari' saja (tanpa sama dengan), sedangkan &gt; berarti 'lebih dari'."
+                },
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Penyelesaian dari x + 4 &gt; 9 adalah...",
+                    options: ["x &gt; 5", "x &gt; 13", "x &lt; 5", "x &lt; 13"],
+                    correctIndex: 0,
+                    explanation: "x + 4 &gt; 9, maka x &gt; 9 &minus; 4, sehingga x &gt; 5."
+                },
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Apa yang terjadi pada tanda pertidaksamaan jika kedua ruas dikalikan bilangan negatif?",
+                    options: [
+                        "Tanda tetap sama",
+                        "Tanda pertidaksamaan berbalik arah",
+                        "Pertidaksamaan menjadi persamaan",
+                        "Tidak ada penyelesaian"
+                    ],
+                    correctIndex: 1,
+                    explanation: "Aturan penting dalam pertidaksamaan: jika kedua ruas dikalikan atau dibagi bilangan negatif, tanda pertidaksamaan harus dibalik arahnya (misalnya &lt; menjadi &gt;)."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Penyelesaian dari 2x &minus; 5 &le; 9 adalah...",
+                    options: ["x &le; 2", "x &le; 7", "x &ge; 2", "x &ge; 7"],
+                    correctIndex: 1,
+                    explanation: "2x &minus; 5 &le; 9 &rarr; 2x &le; 14 &rarr; x &le; 7."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Penyelesaian dari &minus;3x &gt; 12 adalah...",
+                    options: ["x &gt; &minus;4", "x &lt; &minus;4", "x &gt; 4", "x &lt; 4"],
+                    correctIndex: 1,
+                    explanation: "&minus;3x &gt; 12, kedua ruas dibagi &minus;3 (bilangan negatif) sehingga tanda dibalik: x &lt; &minus;4."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Sebuah lift maksimal menahan beban 300 kg. Jika berat seorang teknisi 70 kg dan ia membawa peralatan seberat p kg, pertidaksamaan yang tepat untuk situasi ini adalah...",
+                    options: ["70 + p &le; 300", "70 + p &ge; 300", "70 + p &lt; 300", "70 &times; p &le; 300"],
+                    correctIndex: 0,
+                    explanation: "Total beban (berat teknisi + peralatan) tidak boleh melebihi kapasitas maksimal, sehingga menggunakan tanda &le; (kurang dari atau sama dengan): 70 + p &le; 300."
+                },
+                {
+                    level: "L3 · Penalaran",
+                    question: "Diketahui himpunan penyelesaian suatu pertidaksamaan adalah x &le; 6. Manakah pertidaksamaan berikut yang menghasilkan himpunan penyelesaian tersebut?",
+                    options: [
+                        "2x + 3 &le; 15",
+                        "2x + 3 &ge; 15",
+                        "&minus;2x + 3 &le; 15",
+                        "x &minus; 3 &le; 15"
+                    ],
+                    correctIndex: 0,
+                    explanation: "2x + 3 &le; 15 &rarr; 2x &le; 12 &rarr; x &le; 6, sesuai dengan himpunan penyelesaian yang diminta. Pilihan lain menghasilkan himpunan penyelesaian yang berbeda jika dihitung."
+                },
+                {
+                    level: "L3 · Penalaran",
+                    question: "Seorang siswa menyelesaikan &minus;4x &le; 20 dan menuliskan jawaban x &le; &minus;5 tanpa membalik tanda. Apa akibat dari kesalahan ini?",
+                    options: [
+                        "Jawabannya tetap benar meski tanda tidak dibalik",
+                        "Himpunan penyelesaian menjadi terbalik arahnya dari yang seharusnya (x &ge; &minus;5)",
+                        "Pertidaksamaan menjadi tidak memiliki penyelesaian",
+                        "Hasilnya sama saja karena &minus;4 dan 20 sama-sama genap"
+                    ],
+                    correctIndex: 1,
+                    explanation: "Karena membagi dengan bilangan negatif (&minus;4), tanda pertidaksamaan seharusnya dibalik menjadi x &ge; &minus;5, bukan x &le; &minus;5. Lupa membalik tanda menyebabkan himpunan penyelesaian yang dihasilkan justru kebalikan dari yang benar."
+                }
+            ]
+        };
+    </script>
     <script src="script.js"></script>
+    <script src="quiz-engine.js"></script>
 </body>
 </html>
