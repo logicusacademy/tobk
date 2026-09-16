@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tryout &amp; Bank Soal Matematika SMP — Logicus Academy</title>
-    <meta name="description" content="Latihan tryout interaktif Matematika SMP mengikuti kerangka asesmen TKA — 10 topik, skor langsung, dan pembahasan tiap soal. Gratis dan bisa diulang kapan saja.">
+    <title>Tryout: Operasi Hitung Bilangan Bulat — Logicus Academy</title>
+    <meta name="description" content="Latihan tryout interaktif tentang operasi hitung bilangan bulat untuk SD, mengikuti kerangka asesmen TKA. Skor langsung dan pembahasan tiap soal.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
 
             <nav class="main-nav" id="main-nav">
                 <ul>
-                    <li><a href="#topik">Daftar Tryout</a></li>
+                    <li><a href="index.html">Daftar Tryout</a></li>
                     <li><a href="https://tka.logicus.online">Materi TKA</a></li>
                     <li><a href="https://learn.logicus.online">Belajar</a></li>
                     <li><a href="https://blog.logicus.online">Blog</a></li>
@@ -57,243 +57,21 @@
     </header>
 
     <main id="main">
-        <!-- ============ HERO ============ -->
-        <section class="tobk-hero">
-            <div class="container tobk-hero-inner">
-                <p class="eyebrow" data-reveal>Try Out Berbasis Komputer</p>
-                <h1 data-reveal>Latihan Tryout Logicus Academy</h1>
-                <p class="tobk-hero-lead" data-reveal>Latihan tryout per jenjang, disusun mengikuti kerangka asesmen TKA — lengkap dengan skor langsung dan pembahasan di setiap soal. Kerjakan sebanyak yang kamu mau, kapan saja.</p>
-
-                <div class="tobk-hero-stats" data-reveal>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">16</span>
-                        <span class="stat-label">Topik Tersedia</span>
-                    </div>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">128</span>
-                        <span class="stat-label">Soal Tersedia</span>
-                    </div>
-                    <div class="tobk-hero-stat">
-                        <span class="stat-value">L1&ndash;L3</span>
-                        <span class="stat-label">Level Kognitif</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ PILIH JENJANG ============ -->
-        <section class="jenjang-section" id="jenjang">
+        <!-- ============ BREADCRUMB ============ -->
+        <div class="breadcrumb-bar">
             <div class="container">
-                <p class="section-eyebrow" data-reveal>Langkah 1</p>
-                <h2 data-reveal>Pilih Jenjang</h2>
-
-                <div class="jenjang-grid" data-reveal>
-                    <button class="jenjang-card" data-jenjang="sd" type="button">
-                        <span class="jenjang-badge">SD</span>
-                        <span class="jenjang-label">Sekolah Dasar</span>
-                    </button>
-                    <button class="jenjang-card is-active" data-jenjang="smp" type="button">
-                        <span class="jenjang-badge">SMP</span>
-                        <span class="jenjang-label">Sekolah Menengah Pertama</span>
-                    </button>
-                    <button class="jenjang-card" data-jenjang="sma" type="button">
-                        <span class="jenjang-badge">SMA</span>
-                        <span class="jenjang-label">Sekolah Menengah Atas</span>
-                    </button>
-                </div>
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Tryout</a>
+                    <span aria-hidden="true">/</span>
+                    <span aria-current="page">Operasi Hitung Bilangan Bulat</span>
+                </nav>
             </div>
-        </section>
-
-        <!-- ============ KONTEN: SD ============ -->
-        <section class="topic-section jenjang-content" id="jenjang-sd" hidden>
-            <div class="container">
-                <div class="tobk-note tobk-note-inline" data-reveal>
-                    <i class="fa-solid fa-circle-info"></i>
-                    <p>Soal disusun mengikuti cakupan materi resmi Peraturan Kepala BSKAP No. 047/H/AN/2025 untuk jenjang SD/MI. Lihat ringkasan lengkap kerangka materinya di <a href="https://tka.logicus.online">tka.logicus.online</a>.</p>
-                </div>
-
-                <p class="section-eyebrow" data-reveal>Langkah 2</p>
-                <h2 data-reveal>Pilih Topik Matematika SD</h2>
-
-                <div class="topic-grid">
-                    <a href="sd-01-operasi-hitung.html" class="topic-card" data-reveal>
-                        <span class="topic-number">1</span>
-                        <div class="topic-body">
-                            <h3>Operasi Hitung Bilangan Bulat</h3>
-                            <p>Penjumlahan, pengurangan, perkalian, dan pembagian bilangan bulat</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="sd-02-pecahan-desimal-persen.html" class="topic-card" data-reveal>
-                        <span class="topic-number">2</span>
-                        <div class="topic-body">
-                            <h3>Pecahan, Desimal &amp; Persen</h3>
-                            <p>Operasi dan perbandingan pecahan, desimal, serta persen</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="sd-03-kpk-fpb.html" class="topic-card" data-reveal>
-                        <span class="topic-number">3</span>
-                        <div class="topic-body">
-                            <h3>KPK &amp; FPB</h3>
-                            <p>Kelipatan, faktor, KPK, dan FPB bilangan asli</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="sd-04-bangun-datar-ruang.html" class="topic-card" data-reveal>
-                        <span class="topic-number">4</span>
-                        <div class="topic-body">
-                            <h3>Bangun Datar &amp; Bangun Ruang</h3>
-                            <p>Keliling, luas, dan volume bangun datar serta bangun ruang</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="sd-05-satuan-pengukuran.html" class="topic-card" data-reveal>
-                        <span class="topic-number">5</span>
-                        <div class="topic-body">
-                            <h3>Satuan &amp; Konversi Pengukuran</h3>
-                            <p>Konversi satuan panjang, berat, waktu, dan penerapannya</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="sd-06-penyajian-data.html" class="topic-card" data-reveal>
-                        <span class="topic-number">6</span>
-                        <div class="topic-body">
-                            <h3>Penyajian &amp; Pengolahan Data</h3>
-                            <p>Membaca diagram, rata-rata, median, dan modus</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ KONTEN: SMA (kosong) ============ -->
-        <section class="topic-section jenjang-content" id="jenjang-sma" hidden>
-            <div class="container">
-                <div class="jenjang-empty" data-reveal>
-                    <i class="fa-solid fa-flask"></i>
-                    <h3>Belum Ada Tryout untuk Jenjang SMA</h3>
-                    <p>Tim kami sedang menyiapkan latihan tryout untuk jenjang SMA. Sementara ini, silakan coba tryout Matematika SD atau SMP yang sudah tersedia.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ KONTEN: SMP ============ -->
-        <div class="jenjang-content" id="jenjang-smp">
-
-        <!-- ============ CATATAN ============ -->
-        <section class="tobk-note-section">
-            <div class="container">
-                <div class="tobk-note" data-reveal>
-                    <i class="fa-solid fa-circle-info"></i>
-                    <p>Soal disusun mengikuti cakupan materi resmi Peraturan Kepala BSKAP No. 047/H/AN/2025 untuk jenjang SMP/MTs. Lihat ringkasan lengkap kerangka materinya di <a href="https://tka.logicus.online">tka.logicus.online</a>.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ DAFTAR TOPIK ============ -->
-        <section class="topic-section" id="topik">
-            <div class="container">
-                <p class="section-eyebrow" data-reveal>Langkah 2</p>
-                <h2 data-reveal>Pilih Topik Matematika SMP</h2>
-
-                <div class="topic-grid">
-                    <a href="01-perbandingan-sifat-bilangan.html" class="topic-card" data-reveal>
-                        <span class="topic-number">1</span>
-                        <div class="topic-body">
-                            <h3>Perbandingan &amp; Sifat-Sifat Bilangan</h3>
-                            <p>Bilangan bulat, rasional, irasional, dan sifat operasinya</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="02-operasi-aritmetika.html" class="topic-card" data-reveal>
-                        <span class="topic-number">2</span>
-                        <div class="topic-body">
-                            <h3>Operasi Aritmetika pada Bilangan</h3>
-                            <p>Operasi campuran, urutan operasi hitung, pecahan &amp; desimal</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="03-estimasi.html" class="topic-card" data-reveal>
-                        <span class="topic-number">3</span>
-                        <div class="topic-body">
-                            <h3>Estimasi &amp; Perkiraan Hasil</h3>
-                            <p>Pembulatan, taksiran, dan estimasi hasil perhitungan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="04-faktorisasi-prima.html" class="topic-card" data-reveal>
-                        <span class="topic-number">4</span>
-                        <div class="topic-body">
-                            <h3>Faktorisasi Prima Bilangan Asli</h3>
-                            <p>Pohon faktor, FPB, dan KPK</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="05-rasio.html" class="topic-card" data-reveal>
-                        <span class="topic-number">5</span>
-                        <div class="topic-body">
-                            <h3>Rasio, Skala &amp; Laju Perubahan</h3>
-                            <p>Skala peta/denah, proporsi, dan laju perubahan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="06-perbandingan-senilai-berbalik-nilai.html" class="topic-card" data-reveal>
-                        <span class="topic-number">6</span>
-                        <div class="topic-body">
-                            <h3>Perbandingan Senilai &amp; Berbalik Nilai</h3>
-                            <p>Soal cerita perbandingan naik-turun sebanding</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="07-plsv.html" class="topic-card" data-reveal>
-                        <span class="topic-number">7</span>
-                        <div class="topic-body">
-                            <h3>Persamaan Linear Satu Variabel</h3>
-                            <p>Menyelesaikan PLSV dan penerapannya dalam soal cerita</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="08-pertidaksamaan.html" class="topic-card" data-reveal>
-                        <span class="topic-number">8</span>
-                        <div class="topic-body">
-                            <h3>Pertidaksamaan Linear Satu Variabel</h3>
-                            <p>Menentukan himpunan penyelesaian pertidaksamaan</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="09-spldv.html" class="topic-card" data-reveal>
-                        <span class="topic-number">9</span>
-                        <div class="topic-body">
-                            <h3>Sistem Persamaan Linear Dua Variabel</h3>
-                            <p>Eliminasi, substitusi, dan soal cerita SPLDV</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                    <a href="10-bentuk-aljabar.html" class="topic-card" data-reveal>
-                        <span class="topic-number">10</span>
-                        <div class="topic-body">
-                            <h3>Bentuk Aljabar &amp; Sifat Operasinya</h3>
-                            <p>Suku sejenis, sifat komutatif, asosiatif, distributif</p>
-                        </div>
-                        <i class="fa-solid fa-chevron-right topic-arrow"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
         </div>
-        <!-- ============ /KONTEN SMP ============ -->
 
-        <!-- ============ CTA ============ -->
-        <section class="cta-band" id="konsultasi">
-            <div class="container cta-inner">
-                <div>
-                    <h2>Butuh pendampingan lebih dari sekadar latihan soal?</h2>
-                    <p>Program persiapan TKA Logicus menekankan pemahaman konsep, bukan sekadar hafal pola soal.</p>
-                </div>
-                <a href="https://logicus.online/#konsultasi" class="btn btn-lg cta-band-btn">Konsultasi Gratis <i class="fa-solid fa-arrow-right"></i></a>
+        <!-- ============ QUIZ ============ -->
+        <section class="quiz-page-section">
+            <div class="container quiz-container">
+                <div id="quiz-root"></div>
             </div>
         </section>
     </main>
@@ -339,10 +117,9 @@
             </div>
 
             <div class="footer-col">
-                <h3>Tryout Matematika SMP</h3>
+                <h3>Tryout Lainnya</h3>
                 <ul class="framework-list">
-                    <li><span>10 Topik</span> Bilangan hingga SPLDV</li>
-                    <li><span>Skor Langsung</span> + pembahasan tiap soal</li>
+                    <li><a href="index.html" style="color:#D7E1EA;">Lihat semua 10 topik &rarr;</a></li>
                 </ul>
             </div>
         </div>
@@ -351,22 +128,77 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
     <script>
-        document.querySelectorAll('.jenjang-card').forEach(card => {
-            card.addEventListener('click', () => {
-                const target = card.dataset.jenjang;
-
-                document.querySelectorAll('.jenjang-card').forEach(c => c.classList.remove('is-active'));
-                card.classList.add('is-active');
-
-                document.querySelectorAll('.jenjang-content').forEach(section => {
-                    section.hidden = section.id !== 'jenjang-' + target;
-                });
-
-                document.getElementById('jenjang-' + target).querySelectorAll('[data-reveal]').forEach(el => el.classList.add('is-visible'));
-            });
-        });
+        const QUIZ_DATA = {
+            title: "Operasi Hitung Bilangan Bulat",
+            subtitle: "Penjumlahan, pengurangan, perkalian, dan pembagian bilangan bulat",
+            levelTag: "TKA Matematika SD · Topik 1",
+            questions: [
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Hasil dari 6 + 4 &times; 2 adalah...",
+                    options: ["12", "14", "20", "16"],
+                    correctIndex: 1,
+                    explanation: "Sesuai urutan operasi hitung, perkalian dikerjakan lebih dulu: 4 &times; 2 = 8. Kemudian 6 + 8 = 14."
+                },
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Hasil dari &minus;7 + 10 adalah...",
+                    options: ["&minus;17", "&minus;3", "3", "17"],
+                    correctIndex: 2,
+                    explanation: "&minus;7 + 10 = 3. Karena 10 lebih besar dari 7, hasilnya positif, yaitu selisih dari 10 dan 7."
+                },
+                {
+                    level: "L1 · Pemahaman",
+                    question: "Hasil dari &minus;4 &times; &minus;6 adalah...",
+                    options: ["&minus;24", "&minus;10", "10", "24"],
+                    correctIndex: 3,
+                    explanation: "Perkalian dua bilangan negatif menghasilkan bilangan positif: &minus;4 &times; &minus;6 = 24."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Hasil dari (12 &minus; 4) &times; 3 + 5 adalah...",
+                    options: ["27", "29", "32", "24"],
+                    correctIndex: 1,
+                    explanation: "Kerjakan tanda kurung dulu: 12&minus;4=8. Lalu 8&times;3=24. Terakhir 24+5=29."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Suhu sebuah kota &minus;6&deg;C. Menjelang siang suhu naik 15&deg;C. Suhu kota tersebut sekarang adalah...",
+                    options: ["&minus;21&deg;C", "&minus;9&deg;C", "9&deg;C", "21&deg;C"],
+                    correctIndex: 2,
+                    explanation: "Suhu akhir = &minus;6 + 15 = 9&deg;C."
+                },
+                {
+                    level: "L2 · Aplikasi",
+                    question: "Bu Sari membeli barang seharga Rp45.000 dan menjualnya kembali seharga Rp60.000. Keuntungan Bu Sari adalah...",
+                    options: ["Rp10.000", "Rp15.000", "Rp20.000", "Rp25.000"],
+                    correctIndex: 1,
+                    explanation: "Keuntungan = harga jual &minus; harga beli = Rp60.000 &minus; Rp45.000 = Rp15.000."
+                },
+                {
+                    level: "L3 · Penalaran",
+                    question: "Seorang siswa menghitung 8 &minus; 2 &times; 3 dari kiri ke kanan dan mendapat hasil 18. Di mana letak kesalahannya?",
+                    options: [
+                        "Seharusnya menghitung 2 &times; 3 lebih dulu, baru dikurangkan dari 8, sehingga hasilnya 2",
+                        "Seharusnya menghitung 8 &minus; 2 lebih dulu, baru dikalikan 3",
+                        "Tidak ada kesalahan, 18 sudah benar",
+                        "Seharusnya menjumlahkan semua angka"
+                    ],
+                    correctIndex: 0,
+                    explanation: "Perkalian harus dikerjakan sebelum pengurangan. Urutan yang benar: 2&times;3=6, lalu 8&minus;6=2. Mengerjakan dari kiri ke kanan tanpa memperhatikan urutan operasi menghasilkan jawaban yang salah."
+                },
+                {
+                    level: "L3 · Penalaran",
+                    question: "Andi mempunyai uang Rp50.000. Ia membeli buku seharga Rp12.000 dan pensil seharga Rp3.000. Sisa uang Andi sekarang adalah...",
+                    options: ["Rp32.000", "Rp35.000", "Rp38.000", "Rp40.000"],
+                    correctIndex: 1,
+                    explanation: "Sisa uang = 50.000 &minus; 12.000 &minus; 3.000 = 50.000 &minus; 15.000 = Rp35.000."
+                }
+            ]
+        };
     </script>
+    <script src="script.js"></script>
+    <script src="quiz-engine.js"></script>
 </body>
 </html>
