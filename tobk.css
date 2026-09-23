@@ -119,6 +119,15 @@
 }
 .jenjang-empty h3 { font-size: 1.2rem; margin-bottom: 10px; }
 .jenjang-empty p { color: var(--charcoal); font-size: 0.92rem; margin-bottom: 0; }
+.jenjang-empty-note {
+    max-width: none;
+    text-align: left;
+    padding: 20px 24px;
+    margin: 32px 0 0;
+    background: transparent;
+    border: 1px dashed rgba(19, 64, 90, 0.2);
+}
+.jenjang-empty-note p { font-size: 0.88rem; color: var(--slate); }
 
 .topic-section { background: var(--white); padding: 64px 0 96px; }
 
